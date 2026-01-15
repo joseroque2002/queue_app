@@ -23,8 +23,8 @@ flutter config --no-analytics
 echo "Getting Flutter dependencies..."
 flutter pub get
 
-# Build web app
+# Build web app with skipped unsupported plugins
 echo "Building Flutter web app..."
-flutter build web --web-renderer canvaskit
+flutter build web --web-renderer html --release
 
 echo "Build completed successfully!"

@@ -1916,12 +1916,14 @@ class _InformationFormScreenState extends State<InformationFormScreen>
                                               size: 20,
                                             ),
                                             const SizedBox(width: 8),
-                                            Text(
-                                              'Priority Queue',
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.w600,
-                                                color: Colors.green.shade700,
-                                                fontSize: 17,
+                                            Expanded(
+                                              child: Text(
+                                                'Priority Queue (Prepare your PWD ID and Senior Citizen ID)',
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.w600,
+                                                  color: Colors.green.shade700,
+                                                  fontSize: 17,
+                                                ),
                                               ),
                                             ),
                                           ],
